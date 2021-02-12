@@ -124,12 +124,18 @@ p {
 }
 
 .texto-encabezado {
+<<<<<<< HEAD
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: auto;
   margin-bottom: auto;
+=======
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> dev
 }
 
 .texto-encabezado .container .btn-primary {
@@ -154,7 +160,11 @@ p {
 }
 
 .flecha-bajar a {
+<<<<<<< HEAD
   display: inline-block;
+=======
+  display: none;
+>>>>>>> dev
   color: #fff;
   font-size: 6rem;
   animation: flecha-animada 2s ease-in-out infinite;
