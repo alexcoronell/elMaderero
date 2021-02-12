@@ -4,47 +4,58 @@
 $texto: #333333;
 $principal: #945B4E;
 $secundario: #4E9680;
+
 @font-face {
     font-family: Anton;
     src: url(../fonts/Anton.ttf);
 }
+
 @font-face {
     font-family: CenturyGothicBold;
     src: url(../fonts/CenturyGothicBold.ttf);
 }
+
 @font-face {
     font-family: CenturyGothicBold;
     src: url(../fonts/CenturyGothicBold.ttf);
 }
+
 @font-face {
     font-family: CenturyGothicRegular;
     src: url(../fonts/CenturyGothicRegular.ttf);
 }
+
 @font-face {
     font-family: CenturySchoolBookBold;
     src: url(../fonts/CenturySchoolBookBold.ttf);
 }
+
 html {
     font-size: 16px;
 }
+
 h1 {
     font-family: Anton;
     font-style: normal;
 }
+
 h2,
 h3,
 h5,
 h6 {
     font-family: CenturyGothicBold;
 }
+
 h4 {
     font-family: CenturySchoolBookBold;
 }
+
 p {
     font-family: CenturyGothicRegular;
     font-style: normal;
     font-size: .85rem;
 }
+
 .bienvenidos {
     background: url("../images/fondomobile01.png") no-repeat center top;
     background-size: cover;
@@ -53,25 +64,30 @@ p {
     display: flex;
     flex-direction: column;
 }
+
 .encabezado {
     color: $principal;
     padding: .3rem;
 }
+
 .encabezado .barra-menu-mobile {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     background: transparent;
 }
+
 .logo {
     border-radius: 5px;
     width: 130px;
     height: 55px;
 }
+
 .logo img {
     margin: .3rem;
     opacity: 1;
 }
+
 .boton-menu {
     border: 0;
     font-size: 3rem;
@@ -82,23 +98,28 @@ p {
     margin-left: auto;
     margin-right: 0;
 }
+
 .encabezado .barra-menu-mobile-animado {
     background: $texto;
     opacity: .8;
 }
+
 .boton-menu:focus {
     outline: 0;
 }
+
 #menu-principal {
     flex: 1 1 100%;
     background: $texto;
     opacity: .97;
 }
+
 #menu-principal ul {
     padding: 0;
     list-style: none;
     margin: 1rem 0 0 0;
 }
+
 #menu-principal ul li a {
     display: block;
     padding: .5rem 0;
@@ -108,18 +129,18 @@ p {
     border-bottom: 1px solid #fff;
     text-decoration: none;
 }
+
 #menu-principal ul li.active a,
 #menu-principal ul li a:hover {
     color: $principal;
 }
+
 .texto-encabezado {
-    flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
 }
+
 .texto-encabezado .container .btn-primary {
     font-family: CenturyGothicBold;
     font-size: .9rem;
@@ -127,7 +148,6 @@ p {
     opacity: .8;
     color: #fff;
     padding: .7rem 1.2rem;
-    ;
     border: 3px solid #fff;
     border-radius: 10px;
     margin-top: 2rem;
@@ -135,31 +155,38 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 .texto-encabezado .container .btn-primary:hover,
 .texto-encabezado .container .btn-primary:focus,
 .texto-encabezado .container .btn-primary:active:hover {
     opacity: 1;
 }
+
 .flecha-bajar a {
-    display: inline-block;
+    display: none;
     color: #fff;
     font-size: 6rem;
     animation: flecha-animada 2s ease-in-out infinite;
     margin-left: auto;
     margin-right: auto;
 }
+
 @keyframes flecha-animada {
     from {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(6px);
     }
+
     to {
         transform: translateY(0);
     }
 }
+
 .menu-principal-animado {}
+
 //****************************************************************************************************************
 //                            SECCION LA EMPRESA
 //****************************************************************************************************************
@@ -167,42 +194,51 @@ p {
     background: $principal;
     color: #fff;
 }
+
 .laempresa img {
     width: 80%;
     margin: 0 auto;
     display: block;
     padding: .5rem;
 }
+
 //****************************************************************************************************************
 //                            SECCION PORQUE ELEGIRNOS
 //****************************************************************************************************************
 .porqueelegirnos h2 span {
     color: $principal;
 }
+
 .porqueelegirnos ul {
     list-style: none;
 }
+
 eleccion1,
 eleccion2 {
     width: 80%;
 }
+
 .porqueelegirnos .list-group-item {
     margin-left: auto;
     margin-right: auto;
     border: 0;
 }
+
 .porqueelegirnos .card {
     border: 0;
     font-family: CenturyGothicBold;
     font-size: .9rem;
 }
+
 .porqueelegirnos .imagen-elegirnos {
     margin: auto;
 }
+
 .imagen-elegirnos img {
     margin: auto;
     width: 80%;
 }
+
 //****************************************************************************************************************
 //                            SECCION PRODUCTOS
 //****************************************************************************************************************
@@ -210,13 +246,16 @@ eleccion2 {
     background: $principal;
     color: #fff;
 }
+
 .imagen-producto-principal {
     margin: auto;
 }
+
 .imagen-producto-principal img {
     margin: auto;
     width: 70%;
 }
+
 //****************************************************************************************************************
 //                            SECCION CONTACTO
 //****************************************************************************************************************
@@ -225,15 +264,18 @@ eleccion2 {
     background-size: cover;
     background-attachment: fixed !important;
 }
+
 .formulario {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .formulario label {
     font-family: CenturyGothicBold;
     font-size: 1.1rem;
 }
+
 .formulario input,
 .formulario textarea {
     border: 0;
@@ -245,12 +287,14 @@ eleccion2 {
     padding-right: 0;
     width: 100%;
 }
+
 .boton-formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .formulario .btn-primary {
     font-family: CenturyGothicBold;
     font-size: .8rem;
@@ -268,6 +312,7 @@ eleccion2 {
     text-decoration: none;
     opacity: .8;
 }
+
 .formulario .btn-primary:hover,
 .formulario .btn-primary:focus,
 .formulario .btn-primary:active:hover {
@@ -277,6 +322,7 @@ eleccion2 {
     border: 0;
     opacity: .8;
 }
+
 .llama-ahora-container {
     width: 200px;
     margin-left: auto;
@@ -284,9 +330,11 @@ eleccion2 {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
+
 .llama-ahora-container img {
     width: 100%;
 }
+
 //****************************************************************************************************************
 //                            SECCION PIE DE PAGINA
 //****************************************************************************************************************
@@ -294,20 +342,24 @@ eleccion2 {
     background: $principal;
     color: #fff;
 }
+
 .piedepagina img {
     width: 80%;
     max-width: 220px;
     margin-left: 2.4rem;
 }
+
 .piedepagina ul {
     list-style: none;
 }
+
 .piedepagina ul li a {
     text-decoration: none;
     color: #fff;
     font-family: CenturyGothicRegular;
     font-size: .9rem;
 }
+
 .datos-individuales {
     display: flex;
     align-items: center;
@@ -315,32 +367,38 @@ eleccion2 {
     margin: 1rem 0;
     margin-left: 1rem;
 }
+
 .datos-individuales i {
     font-size: 2rem;
     color: #fff;
     margin-top: 0;
     margin-right: 2rem;
 }
+
 .datos-individuales p {
     margin: 0;
     flex: 1 1 auto;
     font-size: .9rem;
 }
+
 .horarios {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
 }
+
 .piedepagina .redes-sociales {
     display: flex;
     justify-content: space-around;
     padding: 0;
 }
+
 .redes-sociales ul {
     margin: 0;
     padding: 0;
 }
+
 .redes-sociales i {
     font-size: 2.5rem;
     color: #fff;
@@ -349,6 +407,7 @@ eleccion2 {
     opacity: .8;
     transition: all 1s ease;
 }
+
 .redes-sociales i:hover {
     opacity: 1;
 }
@@ -365,9 +424,11 @@ eleccion2 {
     opacity: .8;
     transition: all 1s ease;
 }
+
 .redes-sociales ul li i:hover {
     opacity: 1;
 }
+
 .piedepagina .final-pagina {
     background: $texto;
     color: #fff;
@@ -379,26 +440,31 @@ eleccion2 {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
+
 .final-pagina i {
     font-size: 1rem;
     color: #fff;
     margin-right: 1rem;
 }
+
 .final-pagina h6,
 .final-pagina p {
     margin: 0; //    flex: 1 1 auto;
     font-size: .95rem;
 }
+
 .final-pagina h6 {
     margin-bottom: 0;
     padding-bottom: 0;
 }
+
 .final-pagina p {
     margin-left: 1.9rem;
     font-size: .8rem;
     margin-top: 0;
     padding-top: 0;
 }
+
 //****************************************************************************************************************
 //****************************************************************************************************************
 //****************************************************************************************************************
@@ -410,23 +476,28 @@ eleccion2 {
     .laempresa img {
         width: 80%;
     }
+
     .porqueelegirnos img {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
     }
+
     .formulario .form-group {
         width: 100%;
     }
+
     .llama-ahora-container {
         width: 220px;
     }
+
     .piedepagina .redes-sociales {
         justify-content: space-around;
         width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
+
     .piedepagina .final-pagina {
         min-width: 576px;
         max-width: 767px;
@@ -437,6 +508,7 @@ eleccion2 {
         flex-wrap: nowrap;
     }
 }
+
 @media screen and (max-width: 767px) {
     .form-group {
         min-width: 100%;
@@ -445,9 +517,11 @@ eleccion2 {
         margin-left: auto;
         margin-right: auto;
     }
+
     .encabezado .barra-menu-desktop {
         display: none;
     }
+
     .animated {
         /*CSS transitions*/
         -o-transition-property: none !important;
@@ -469,10 +543,13 @@ eleccion2 {
         animation: none !important;
     }
 }
+
 @media screen and (min-width: 768px) {
     .encabezado .barra-menu-mobile {
         display: none;
-    } //******************************************************
+    }
+
+    //******************************************************
     .encabezado .menu-principal-desktop {
         display: block;
         background: transparent;
@@ -480,6 +557,7 @@ eleccion2 {
         width: 60%;
         transition: all .5s ease;
     }
+
     .encabezado .menu-principal-desktop ul {
         display: flex;
         align-items: center;
@@ -488,11 +566,13 @@ eleccion2 {
         margin-top: 0;
         margin-bottom: 0;
     }
+
     .encabezado #menu-principal-desktop ul li {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+
     .encabezado #menu-principal-desktop ul li a {
         font-family: CenturyGothicRegular;
         font-size: .6rem;
@@ -504,19 +584,23 @@ eleccion2 {
         text-align: left;
         text-decoration: none;
     }
+
     .barra-menu-desktop .logo {
         width: 25%;
         margin-right: 3rem;
         transition: all .1s ease;
     }
+
     .barra-menu-desktop .logo img {
         width: 100%;
     }
+
     .barra-menu-desktop .logo-desktop-animado {
         opacity: .01;
         display: none;
         transition: all .1s ease;
     }
+
     .barra-menu-desktop .menu-principal-desktop-animado {
         display: block;
         background: $texto;
@@ -526,28 +610,34 @@ eleccion2 {
         opacity: .8;
         transition: all .5s ease;
     }
+
     .laempresa p {
         padding-left: 0;
         padding-right: 0;
     }
+
     .laempresa img {
         width: 100%;
         margin-top: 1rem;
         padding: 0;
     }
+
     .formulario .form-group {
         width: 100%;
     }
+
     .formulario .form-group1 {
         padding-right: 0;
         padding-left: 0;
         margin-right: auto;
     }
+
     .formulario .form-group2 {
         padding-right: 0;
         padding-left: 0;
         margin-right: 1rem;
     }
+
     .formulario .form-group3 {
         padding-right: 0;
         padding-left: 0;
@@ -555,18 +645,22 @@ eleccion2 {
         margin-left: 0;
         width: 100%;
     }
+
     .llama-ahora-container {
         width: 230px;
     }
+
     .piedepagina .redes-sociales {
         justify-content: space-around;
         width: 50%;
     }
+
     .piedepagina .final-pagina {
         min-width: 768px;
         max-width: 3000px;
     }
 }
+
 @media screen and (max-width: 991px) {
     .texto-encabezado .display-4 {
         color: #fff;
@@ -574,53 +668,65 @@ eleccion2 {
         margin-left: auto;
         margin-right: auto;
     }
+
     .texto-encabezado .display-2 {
         display: none;
     }
 }
+
 @media screen and (min-width: 992px) {
     html {
         font-size: 17px;
     }
+
     .texto-encabezado {
         max-width: 1000px;
         width: 95%;
         margin-left: auto;
         margin-right: auto;
     }
+
     .texto-encabezado .display-4 {
         display: none;
     }
+
     .texto-encabezado .display-2 {
         color: #fff;
         margin-top: 9rem;
         width: 70%; //        background: $secundario;
         padding-left: 5rem;
     }
+
     .encabezado #menu-principal-desktop ul li a {
         font-size: .75rem;
     }
+
     .barra-menu-desktop .logo {
         width: 20%;
     }
+
     .porqueelegirnos .elecciondiv1 {
         order: 0;
         margin: auto;
     }
+
     .porqueelegirnos .elecciondiv2 {
         order: 2;
         margin: auto;
     }
+
     .porqueelegirnos .eleccion1 {
         width: 80%;
         margin-left: auto;
         padding-right: 0;
     }
+
     .porqueelegirnos .eleccion2 {
         width: 80%;
         margin-right: auto;
         padding-left: 0;
     }
+
     .porqueelegirnos .imagen-elegirnos {
         order: 1;
         padding: 0;
@@ -629,25 +735,31 @@ eleccion2 {
         margin-top: auto;
         margin-bottom: auto;
     }
+
     .porqueelegirnos .imagen-elegirnos img {
         padding: 0;
         width: 80%;
         margin: auto;
     }
+
     .llama-ahora-container {
         width: 250px;
     }
+
     .piedepagina .redes-sociales {
         justify-content: space-around;
         width: 95%;
     }
+
     .paginas-internas .la-empresa-pagina .seccion2-1 {
         order: 1;
     }
+
     .paginas-internas .la-empresa-pagina .seccion2-2 {
         order: 2;
     }
 }
+
 //*************************************************************************************************************************
 //*************************************************************************************************************************
 //*************************************************************************************************************************
@@ -665,18 +777,22 @@ eleccion2 {
     display: flex;
     flex-direction: column;
 }
+
 .paginas-internas .productos-pagina {
+
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         color: $principal;
     }
 }
+
 .paginas-internas .owl-nav {
     display: flex;
     justify-content: center;
     margin: .5rem 0;
     color: $principal;
 }
+
 .paginas-internas .owl-prev,
 .paginas-internas .owl-next {
     font-size: 3rem;
@@ -684,10 +800,12 @@ eleccion2 {
     opacity: .8;
     transition: all .5s ease;
 }
+
 .paginas-internas .owl-prev:hover,
 .paginas-internas .owl-next:hover {
     opacity: 1;
 }
+
 .paginas-internas .contacto-bienvenidos {
     background: url("../images/fondodesktop02.jpg") no-repeat center top;
     background-size: cover;
@@ -696,6 +814,7 @@ eleccion2 {
     display: flex;
     flex-direction: column;
 }
+
 .paginas-internas .texto-encabezado .display-2 {
     color: #fff;
     font-size: 3.5rem;
@@ -705,25 +824,31 @@ eleccion2 {
     padding-left: 0;
     padding-right: 0;
 }
+
 .paginas-internas h2,
 .paginas-internas h4 {
     color: $principal;
 }
+
 .paginas-internas .la-empresa-pagina .imagen-norma-nimf15 {
     width: 90%;
     margin-top: 1rem;
 }
+
 .paginas-internas .la-empresa-pagina .imagen-norma-nimf15 img {
     width: 100%;
 }
+
 .paginas-internas .la-empresa-pagina .imagen-gestion-integral {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .paginas-internas .la-empresa-pagina .imagen-gestion-integral img {
     width: 90%;
 }
+
 .contacto-bienvenidos .contacto-pagina {
     background: transparent !important;
 }
