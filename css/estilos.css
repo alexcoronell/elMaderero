@@ -1,3 +1,801 @@
-@font-face{font-family:Anton;src:url(../fonts/Anton.ttf)}@font-face{font-family:CenturyGothicBold;src:url(../fonts/CenturyGothicBold.ttf)}@font-face{font-family:CenturyGothicBold;src:url(../fonts/CenturyGothicBold.ttf)}@font-face{font-family:CenturyGothicRegular;src:url(../fonts/CenturyGothicRegular.ttf)}@font-face{font-family:CenturySchoolBookBold;src:url(../fonts/CenturySchoolBookBold.ttf)}html{font-size:16px}h1{font-family:Anton;font-style:normal}h2,h3,h5,h6{font-family:CenturyGothicBold}h4{font-family:CenturySchoolBookBold}p{font-family:CenturyGothicRegular;font-style:normal;font-size:.85rem}.bienvenidos{background:url("../images/fondomobile01.png") no-repeat center top;background-size:cover;background-attachment:fixed !important;height:100vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.encabezado{color:#945B4E;padding:.3rem}.encabezado .barra-menu-mobile{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:wrap;flex-wrap:wrap;background:transparent}.logo{border-radius:5px;width:130px;height:55px}.logo img{margin:.3rem;opacity:1}.boton-menu{border:0;font-size:3rem;margin:0;padding:0 .5rem;background:transparent;color:#945B4E;margin-left:auto;margin-right:0}.encabezado .barra-menu-mobile-animado{background:#333;opacity:.8}.boton-menu:focus{outline:0}#menu-principal{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:#333;opacity:.97}#menu-principal ul{padding:0;list-style:none;margin:1rem 0 0 0}#menu-principal ul li a{display:block;padding:.5rem 0;text-align:center;color:#fff;text-transform:uppercase;border-bottom:1px solid #fff;text-decoration:none}#menu-principal ul li.active a,#menu-principal ul li a:hover{color:#945B4E}.texto-encabezado{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:auto;margin-bottom:auto}.texto-encabezado .container .btn-primary{font-family:CenturyGothicBold;font-size:.9rem;background:#333;opacity:.8;color:#fff;padding:.7rem 1.2rem;border:3px solid #fff;border-radius:10px;margin-top:2rem;-webkit-transition:all .5 ease;transition:all .5 ease;margin-left:auto;margin-right:auto}.texto-encabezado .container .btn-primary:hover,.texto-encabezado .container .btn-primary:focus,.texto-encabezado .container .btn-primary:active:hover{opacity:1}.flecha-bajar a{display:inline-block;color:#fff;font-size:6rem;-webkit-animation:flecha-animada 2s ease-in-out infinite;animation:flecha-animada 2s ease-in-out infinite;margin-left:auto;margin-right:auto}@-webkit-keyframes flecha-animada{from{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(6px);transform:translateY(6px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}@keyframes flecha-animada{from{-webkit-transform:translateY(0);transform:translateY(0)}50%{-webkit-transform:translateY(6px);transform:translateY(6px)}to{-webkit-transform:translateY(0);transform:translateY(0)}}.laempresa{background:#945B4E;color:#fff}.laempresa img{width:80%;margin:0 auto;display:block;padding:.5rem}.porqueelegirnos h2 span{color:#945B4E}.porqueelegirnos ul{list-style:none}eleccion1,eleccion2{width:80%}.porqueelegirnos .list-group-item{margin-left:auto;margin-right:auto;border:0}.porqueelegirnos .card{border:0;font-family:CenturyGothicBold;font-size:.9rem}.porqueelegirnos .imagen-elegirnos{margin:auto}.imagen-elegirnos img{margin:auto;width:80%}.productos-principal{background:#945B4E;color:#fff}.imagen-producto-principal{margin:auto}.imagen-producto-principal img{margin:auto;width:70%}.contacto-principal{background:url("../images/fondo-contacto.jpg") no-repeat center top;background-size:cover;background-attachment:fixed !important}.formulario{max-width:700px;margin-left:auto;margin-right:auto}.formulario label{font-family:CenturyGothicBold;font-size:1.1rem}.formulario input,.formulario textarea{border:0;background:#333;opacity:.8;padding-top:.5rem;padding-bottom:.5rem;padding-left:0;padding-right:0;width:100%}.boton-formulario{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.formulario .btn-primary{font-family:CenturyGothicBold;font-size:.8rem;background:#333;color:#fff;border:0;padding-top:.4rem;padding-bottom:.4rem;padding-left:2rem;padding-right:2rem;border-radius:10px;margin-left:auto;margin-right:auto;-webkit-transition:all .5 ease;transition:all .5 ease;text-decoration:none;opacity:.8}.formulario .btn-primary:hover,.formulario .btn-primary:focus,.formulario .btn-primary:active:hover{text-decoration:none;background:#333;color:#fff;border:0;opacity:.8}.llama-ahora-container{width:200px;margin-left:auto;margin-right:auto;padding-top:.5rem;padding-bottom:.5rem}.llama-ahora-container img{width:100%}.piedepagina{background:#945B4E;color:#fff}.piedepagina img{width:80%;max-width:220px;margin-left:2.4rem}.piedepagina ul{list-style:none}.piedepagina ul li a{text-decoration:none;color:#fff;font-family:CenturyGothicRegular;font-size:.9rem}.datos-individuales{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#fff;margin:1rem 0;margin-left:1rem}.datos-individuales i{font-size:2rem;color:#fff;margin-top:0;margin-right:2rem}.datos-individuales p{margin:0;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;font-size:.9rem}.horarios{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:nowrap;flex-wrap:nowrap}.piedepagina .redes-sociales{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;padding:0}.redes-sociales ul{margin:0;padding:0}.redes-sociales i{font-size:2.5rem;color:#fff;margin-top:0;padding:0;opacity:.8;-webkit-transition:all 1s ease;transition:all 1s ease}.redes-sociales i:hover{opacity:1}.redes-sociales ul li i{opacity:.8;-webkit-transition:all 1s ease;transition:all 1s ease}.redes-sociales ul li i:hover{opacity:1}.piedepagina .final-pagina{background:#333;color:#fff;width:100%;padding:1rem;margin:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap}.final-pagina i{font-size:1rem;color:#fff;margin-right:1rem}.final-pagina h6,.final-pagina p{margin:0;font-size:.95rem}.final-pagina h6{margin-bottom:0;padding-bottom:0}.final-pagina p{margin-left:1.9rem;font-size:.8rem;margin-top:0;padding-top:0}@media screen and (min-width: 576px){.laempresa img{width:80%}.porqueelegirnos img{margin-left:auto;margin-right:auto;width:80%}.formulario .form-group{width:100%}.llama-ahora-container{width:220px}.piedepagina .redes-sociales{-ms-flex-pack:distribute;justify-content:space-around;width:70%;margin-left:auto;margin-right:auto}.piedepagina .final-pagina{min-width:576px;max-width:767px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-wrap:nowrap;flex-wrap:nowrap}}@media screen and (max-width: 767px){.form-group{min-width:100%;padding-left:0;padding-right:0;margin-left:auto;margin-right:auto}.encabezado .barra-menu-desktop{display:none}.animated{-webkit-transition-property:none !important;transition-property:none !important;-webkit-transform:none !important;transform:none !important;-webkit-animation:none !important;animation:none !important}}@media screen and (min-width: 768px){.encabezado .barra-menu-mobile{display:none}.encabezado .menu-principal-desktop{display:block;background:transparent;margin-left:2rem;width:60%;-webkit-transition:all .5s ease;transition:all .5s ease}.encabezado .menu-principal-desktop ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;list-style:none;margin-top:0;margin-bottom:0}.encabezado #menu-principal-desktop ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.encabezado #menu-principal-desktop ul li a{font-family:CenturyGothicRegular;font-size:.6rem;padding:.75rem;margin:0;border-bottom:0px;color:#fff;display:block;text-align:left;text-decoration:none}.barra-menu-desktop .logo{width:25%;margin-right:3rem;-webkit-transition:all .1s ease;transition:all .1s ease}.barra-menu-desktop .logo img{width:100%}.barra-menu-desktop .logo-desktop-animado{opacity:.01;display:none;-webkit-transition:all .1s ease;transition:all .1s ease}.barra-menu-desktop .menu-principal-desktop-animado{display:block;background:#333;margin-left:auto;margin-right:auto;width:100%;opacity:.8;-webkit-transition:all .5s ease;transition:all .5s ease}.laempresa p{padding-left:0;padding-right:0}.laempresa img{width:100%;margin-top:1rem;padding:0}.formulario .form-group{width:100%}.formulario .form-group1{padding-right:0;padding-left:0;margin-right:auto}.formulario .form-group2{padding-right:0;padding-left:0;margin-right:1rem}.formulario .form-group3{padding-right:0;padding-left:0;margin-right:0;margin-left:0;width:100%}.llama-ahora-container{width:230px}.piedepagina .redes-sociales{-ms-flex-pack:distribute;justify-content:space-around;width:50%}.piedepagina .final-pagina{min-width:768px;max-width:3000px}}@media screen and (max-width: 991px){.texto-encabezado .display-4{color:#fff;margin-top:6rem;margin-left:auto;margin-right:auto}.texto-encabezado .display-2{display:none}}@media screen and (min-width: 992px){html{font-size:17px}.texto-encabezado{max-width:1000px;width:95%;margin-left:auto;margin-right:auto}.texto-encabezado .display-4{display:none}.texto-encabezado .display-2{color:#fff;margin-top:9rem;width:70%;padding-left:5rem}.encabezado #menu-principal-desktop ul li a{font-size:.75rem}.barra-menu-desktop .logo{width:20%}.porqueelegirnos .elecciondiv1{-webkit-box-ordinal-group:1;-ms-flex-order:0;order:0;margin:auto}.porqueelegirnos .elecciondiv2{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;margin:auto}.porqueelegirnos .eleccion1{width:80%;margin-left:auto;padding-right:0}.porqueelegirnos .eleccion2{width:80%;margin-right:auto;padding-left:0}.porqueelegirnos .imagen-elegirnos{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1;padding:0;margin-left:0;margin-right:0;margin-top:auto;margin-bottom:auto}.porqueelegirnos .imagen-elegirnos img{padding:0;width:80%;margin:auto}.llama-ahora-container{width:250px}.piedepagina .redes-sociales{-ms-flex-pack:distribute;justify-content:space-around;width:95%}.paginas-internas .la-empresa-pagina .seccion2-1{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}.paginas-internas .la-empresa-pagina .seccion2-2{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}}.paginas-internas .la-empresa-bienvenidos{background:url("../images/fondo-laempresa.jpg") no-repeat center top;background-size:cover;background-attachment:fixed !important;height:70vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.paginas-internas .productos-pagina .carousel-control-prev-icon,.paginas-internas .productos-pagina .carousel-control-next-icon{color:#945B4E}.paginas-internas .owl-nav{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin:.5rem 0;color:#945B4E}.paginas-internas .owl-prev,.paginas-internas .owl-next{font-size:3rem;margin:0 .5rem;opacity:.8;-webkit-transition:all .5s ease;transition:all .5s ease}.paginas-internas .owl-prev:hover,.paginas-internas .owl-next:hover{opacity:1}.paginas-internas .contacto-bienvenidos{background:url("../images/fondodesktop02.jpg") no-repeat center top;background-size:cover;background-attachment:fixed !important;height:70vh;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.paginas-internas .texto-encabezado .display-2{color:#fff;font-size:3.5rem;margin-top:7rem;margin-left:auto;margin-right:auto;padding-left:0;padding-right:0}.paginas-internas h2,.paginas-internas h4{color:#945B4E}.paginas-internas .la-empresa-pagina .imagen-norma-nimf15{width:90%;margin-top:1rem}.paginas-internas .la-empresa-pagina .imagen-norma-nimf15 img{width:100%}.paginas-internas .la-empresa-pagina .imagen-gestion-integral{width:90%;margin-left:auto;margin-right:auto}.paginas-internas .la-empresa-pagina .imagen-gestion-integral img{width:90%}.contacto-bienvenidos .contacto-pagina{background:transparent !important}
+@font-face {
+  font-family: Anton;
+  src: url(../fonts/Anton.ttf);
+}
+@font-face {
+  font-family: CenturyGothicBold;
+  src: url(../fonts/CenturyGothicBold.ttf);
+}
+@font-face {
+  font-family: CenturyGothicBold;
+  src: url(../fonts/CenturyGothicBold.ttf);
+}
+@font-face {
+  font-family: CenturyGothicRegular;
+  src: url(../fonts/CenturyGothicRegular.ttf);
+}
+@font-face {
+  font-family: CenturySchoolBookBold;
+  src: url(../fonts/CenturySchoolBookBold.ttf);
+}
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: Anton;
+  font-style: normal;
+}
+
+h2,
+h3,
+h5,
+h6 {
+  font-family: CenturyGothicBold;
+}
+
+h4 {
+  font-family: CenturySchoolBookBold;
+}
+
+p {
+  font-family: CenturyGothicRegular;
+  font-style: normal;
+  font-size: 0.85rem;
+}
+
+.bienvenidos {
+  background: url("../images/fondomobile01.png") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed !important;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezado {
+  color: #945B4E;
+  padding: 0.3rem;
+}
+
+.encabezado .barra-menu-mobile {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background: transparent;
+}
+
+.logo {
+  border-radius: 5px;
+  width: 130px;
+  height: 55px;
+}
+
+.logo img {
+  margin: 0.3rem;
+  opacity: 1;
+}
+
+.boton-menu {
+  border: 0;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0 0.5rem;
+  background: transparent;
+  color: #945B4E;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.encabezado .barra-menu-mobile-animado {
+  background: #333333;
+  opacity: 0.8;
+}
+
+.boton-menu:focus {
+  outline: 0;
+}
+
+#menu-principal {
+  flex: 1 1 100%;
+  background: #333333;
+  opacity: 0.97;
+}
+
+#menu-principal ul {
+  padding: 0;
+  list-style: none;
+  margin: 1rem 0 0 0;
+}
+
+#menu-principal ul li a {
+  display: block;
+  padding: 0.5rem 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+}
+
+#menu-principal ul li.active a,
+#menu-principal ul li a:hover {
+  color: #945B4E;
+}
+
+.texto-encabezado {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.texto-encabezado .container .btn-primary {
+  font-family: CenturyGothicBold;
+  font-size: 0.9rem;
+  background: #333333;
+  opacity: 0.8;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  margin-top: 2rem;
+  transition: all 0.5 ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto-encabezado .container .btn-primary:hover,
+.texto-encabezado .container .btn-primary:focus,
+.texto-encabezado .container .btn-primary:active:hover {
+  opacity: 1;
+}
+
+.flecha-bajar a {
+  display: inline-block;
+  color: #fff;
+  font-size: 6rem;
+  animation: flecha-animada 2s ease-in-out infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes flecha-animada {
+  from {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.laempresa {
+  background: #945B4E;
+  color: #fff;
+}
+
+.laempresa img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  padding: 0.5rem;
+}
+
+.porqueelegirnos h2 span {
+  color: #945B4E;
+}
+
+.porqueelegirnos ul {
+  list-style: none;
+}
+
+eleccion1,
+eleccion2 {
+  width: 80%;
+}
+
+.porqueelegirnos .list-group-item {
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+}
+
+.porqueelegirnos .card {
+  border: 0;
+  font-family: CenturyGothicBold;
+  font-size: 0.9rem;
+}
+
+.porqueelegirnos .imagen-elegirnos {
+  margin: auto;
+}
+
+.imagen-elegirnos img {
+  margin: auto;
+  width: 80%;
+}
+
+.productos-principal {
+  background: #945B4E;
+  color: #fff;
+}
+
+.imagen-producto-principal {
+  margin: auto;
+}
+
+.imagen-producto-principal img {
+  margin: auto;
+  width: 70%;
+}
+
+.contacto-principal {
+  background: url("../images/fondo-contacto.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed !important;
+}
+
+.formulario {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulario label {
+  font-family: CenturyGothicBold;
+  font-size: 1.1rem;
+}
+
+.formulario input,
+.formulario textarea {
+  border: 0;
+  background: #333333;
+  opacity: 0.8;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.boton-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario .btn-primary {
+  font-family: CenturyGothicBold;
+  font-size: 0.8rem;
+  background: #333333;
+  color: #fff;
+  border: 0;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 0.5 ease;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.formulario .btn-primary:hover,
+.formulario .btn-primary:focus,
+.formulario .btn-primary:active:hover {
+  text-decoration: none;
+  background: #333333;
+  color: #fff;
+  border: 0;
+  opacity: 0.8;
+}
+
+.llama-ahora-container {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.llama-ahora-container img {
+  width: 100%;
+}
+
+.piedepagina {
+  background: #945B4E;
+  color: #fff;
+}
+
+.piedepagina img {
+  width: 80%;
+  max-width: 220px;
+  margin-left: 2.4rem;
+}
+
+.piedepagina ul {
+  list-style: none;
+}
+
+.piedepagina ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: CenturyGothicRegular;
+  font-size: 0.9rem;
+}
+
+.datos-individuales {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
+
+.datos-individuales i {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: 0;
+  margin-right: 2rem;
+}
+
+.datos-individuales p {
+  margin: 0;
+  flex: 1 1 auto;
+  font-size: 0.9rem;
+}
+
+.horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.piedepagina .redes-sociales {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.redes-sociales ul {
+  margin: 0;
+  padding: 0;
+}
+
+.redes-sociales i {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 0;
+  padding: 0;
+  opacity: 0.8;
+  transition: all 1s ease;
+}
+
+.redes-sociales i:hover {
+  opacity: 1;
+}
+
+/*.redes-sociales ul li a i {
+    opacity: .8;
+    transition: all 1s ease;
+}
+.redes-sociales ul li a i:hover {
+    opacity: 1;
+}*/
+.redes-sociales ul li i {
+  opacity: 0.8;
+  transition: all 1s ease;
+}
+
+.redes-sociales ul li i:hover {
+  opacity: 1;
+}
+
+.piedepagina .final-pagina {
+  background: #333333;
+  color: #fff;
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.final-pagina i {
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.final-pagina h6,
+.final-pagina p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.final-pagina h6 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.final-pagina p {
+  margin-left: 1.9rem;
+  font-size: 0.8rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .laempresa img {
+    width: 80%;
+  }
+
+  .porqueelegirnos img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .formulario .form-group {
+    width: 100%;
+  }
+
+  .llama-ahora-container {
+    width: 220px;
+  }
+
+  .piedepagina .redes-sociales {
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .piedepagina .final-pagina {
+    min-width: 576px;
+    max-width: 767px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-group {
+    min-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .encabezado .barra-menu-desktop {
+    display: none;
+  }
+
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .encabezado .barra-menu-mobile {
+    display: none;
+  }
+
+  .encabezado .menu-principal-desktop {
+    display: block;
+    background: transparent;
+    margin-left: 2rem;
+    width: 60%;
+    transition: all 0.5s ease;
+  }
+
+  .encabezado .menu-principal-desktop ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .encabezado #menu-principal-desktop ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .encabezado #menu-principal-desktop ul li a {
+    font-family: CenturyGothicRegular;
+    font-size: 0.6rem;
+    padding: 0.75rem;
+    margin: 0;
+    border-bottom: 0px;
+    color: #fff;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+  }
+
+  .barra-menu-desktop .logo {
+    width: 25%;
+    margin-right: 3rem;
+    transition: all 0.1s ease;
+  }
+
+  .barra-menu-desktop .logo img {
+    width: 100%;
+  }
+
+  .barra-menu-desktop .logo-desktop-animado {
+    opacity: 0.01;
+    display: none;
+    transition: all 0.1s ease;
+  }
+
+  .barra-menu-desktop .menu-principal-desktop-animado {
+    display: block;
+    background: #333333;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    opacity: 0.8;
+    transition: all 0.5s ease;
+  }
+
+  .laempresa p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .laempresa img {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .formulario .form-group {
+    width: 100%;
+  }
+
+  .formulario .form-group1 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+  }
+
+  .formulario .form-group2 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 1rem;
+  }
+
+  .formulario .form-group3 {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .llama-ahora-container {
+    width: 230px;
+  }
+
+  .piedepagina .redes-sociales {
+    justify-content: space-around;
+    width: 50%;
+  }
+
+  .piedepagina .final-pagina {
+    min-width: 768px;
+    max-width: 3000px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .texto-encabezado .display-4 {
+    color: #fff;
+    margin-top: 6rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .texto-encabezado .display-2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 17px;
+  }
+
+  .texto-encabezado {
+    max-width: 1000px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .texto-encabezado .display-4 {
+    display: none;
+  }
+
+  .texto-encabezado .display-2 {
+    color: #fff;
+    margin-top: 9rem;
+    width: 70%;
+    padding-left: 5rem;
+  }
+
+  .encabezado #menu-principal-desktop ul li a {
+    font-size: 0.75rem;
+  }
+
+  .barra-menu-desktop .logo {
+    width: 20%;
+  }
+
+  .porqueelegirnos .elecciondiv1 {
+    order: 0;
+    margin: auto;
+  }
+
+  .porqueelegirnos .elecciondiv2 {
+    order: 2;
+    margin: auto;
+  }
+
+  .porqueelegirnos .eleccion1 {
+    width: 80%;
+    margin-left: auto;
+    padding-right: 0;
+  }
+
+  .porqueelegirnos .eleccion2 {
+    width: 80%;
+    margin-right: auto;
+    padding-left: 0;
+  }
+
+  .porqueelegirnos .imagen-elegirnos {
+    order: 1;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .porqueelegirnos .imagen-elegirnos img {
+    padding: 0;
+    width: 80%;
+    margin: auto;
+  }
+
+  .llama-ahora-container {
+    width: 250px;
+  }
+
+  .piedepagina .redes-sociales {
+    justify-content: space-around;
+    width: 95%;
+  }
+
+  .paginas-internas .la-empresa-pagina .seccion2-1 {
+    order: 1;
+  }
+
+  .paginas-internas .la-empresa-pagina .seccion2-2 {
+    order: 2;
+  }
+}
+.paginas-internas .la-empresa-bienvenidos {
+  background: url("../images/fondo-laempresa.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed !important;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.paginas-internas .productos-pagina .carousel-control-prev-icon,
+.paginas-internas .productos-pagina .carousel-control-next-icon {
+  color: #945B4E;
+}
+
+.paginas-internas .owl-nav {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+  color: #945B4E;
+}
+
+.paginas-internas .owl-prev,
+.paginas-internas .owl-next {
+  font-size: 3rem;
+  margin: 0 0.5rem;
+  opacity: 0.8;
+  transition: all 0.5s ease;
+}
+
+.paginas-internas .owl-prev:hover,
+.paginas-internas .owl-next:hover {
+  opacity: 1;
+}
+
+.paginas-internas .contacto-bienvenidos {
+  background: url("../images/fondodesktop02.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed !important;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.paginas-internas .texto-encabezado .display-2 {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.paginas-internas h2,
+.paginas-internas h4 {
+  color: #945B4E;
+}
+
+.paginas-internas .la-empresa-pagina .imagen-norma-nimf15 {
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.paginas-internas .la-empresa-pagina .imagen-norma-nimf15 img {
+  width: 100%;
+}
+
+.paginas-internas .la-empresa-pagina .imagen-gestion-integral {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paginas-internas .la-empresa-pagina .imagen-gestion-integral img {
+  width: 90%;
+}
+
+.contacto-bienvenidos .contacto-pagina {
+  background: transparent !important;
+}
 
 /*# sourceMappingURL=estilos.css.map */
